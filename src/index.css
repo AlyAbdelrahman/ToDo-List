@@ -1,0 +1,157 @@
+body {
+  /* display: flex */
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(http://inn.spb.ru/images/400/DSC100472048.png);
+  background-size: cover
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.panel {
+	/* width: 30%;  */
+	/* margin: auto; */
+	height: fit-content;
+	padding-left: 1em;
+	padding-right: 1em;
+	border: solid 0.1em lightgrey;
+	border-radius: 5px;
+}
+
+.panel .panel-header {
+	text-align: center;
+}
+/* 
+.panel.finished{
+	margin: auto;
+
+} */
+
+.panel li {
+	background: lightgrey;
+}
+
+.panel li:hover {
+	background: red;
+}
+
+.controls {
+	text-align: center;
+	margin: auto;
+}
+
+.input {
+	border-radius: 15px;
+	margin: auto;
+}
+
+.submit {
+	margin: 5px auto 5px auto;
+	text-align: center;
+	width: 40px;
+	color: #ffffff;
+	font-size: 15px;
+	background: #3498db;
+	padding: 5px 20px 5px 20px;
+}
+
+.submit:hover {
+	background: #3cb0fd;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.delete {
+	display: inline-block;
+	color: red;
+	margin: 3px;
+	padding: 2px;
+}
+
+.delete:hover {
+	background: lightgrey;
+	border-radius: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.todoList {
+	margin: 5px;
+}
+
+.complete {
+	display: inline-block;
+	color: rgb(1, 210, 247);
+	margin: 3px;
+	padding: 2px;
+}
+
+.complete:hover {
+	background: lightgrey;
+	border-radius: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.completed {
+	text-decoration: line-through;
+}
+
+.todoItem {
+	margin: auto;
+	margin-top: 5px;
+	width: fit-content;
+	border: solid 1px rgb(26, 16, 16);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.todoItemText {
+	display: inline-block;
+	margin: 5px;
+}
+
+.itemControls {
+	float: right;
+}
+
+.stats {
+	text-align: center;
+}
+
+.tboxTodoItem {
+	-moz-border-radius: 15px;
+	border-radius: 5px;
+	border: solid 1px rgb(250, 250, 250);
+	padding: 5px;
+}
+
+.App{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.App .tasklist{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.App .CompletedTask{
+	display: flex;
+	flex-direction: column;
+
+}
+
